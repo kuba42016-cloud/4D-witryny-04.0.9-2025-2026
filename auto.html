@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  <style>
+    <style>
         table {
             border-collapse: collapse;
         }
 
         td {
             border-left: 3px solid blueviolet;
-            padding: 20px;
+            padding: 10px ;
             text-align: left;
         }
     </style>
 </head>
+
 <body>
-   <table>
-    <tr><td><p>Marka:</p> <input type="Marka"></td><td></td><td></td><td></td><td></td></tr>
-     <tr><td><p>Model:</p> <input type="Model"></td><td></td><td></td><td></td><td></td></tr>
+    <table>
+        <tr>
+            <td>
+                Marka: <input type="Marka">
+            </td>
+            <td rowspan="2">Typ nadwozia:<select size="5" multiple>
+                        <option>coupé</option>
+                        <option>hatchback</option>
+                        <option>kabriolet</option>
+                        <option>kombi</option>
+                        <option>sedan</option>
+                    </select></p></td>
+            <td>
+                Miesiąc i rok produkcji:<input type="month">
+            </td>
+            <td>Przebieg:<input type="range" id="points"  min="25000" max="250000" > <output></output>
+            
+            <td rowspan="2"><button type="button">Szukaj</button></td>
+        </tr>
+        <tr>
+            <td>
+                Model: <input type="Model">
+            </td>
+            
+            <td>
+                Rodzaj paliwa:<select name="select">
+                    <option>benzyna</option>
+                    <option>benzyna + elektryk</option>
+                    <option>benzyna + gaz</option>
+                    <option>elektryk</option>
+                    <option>diesel</option>
+                </select>
+            </td>
+            <td>Cena do:<input type="range" name="points" min="1" max="500000"><output></output> </td>
+            
+        </tr>
     </table>
 </body>
+
 </html>
-   
