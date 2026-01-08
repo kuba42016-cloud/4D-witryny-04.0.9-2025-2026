@@ -1,0 +1,42 @@
+body {
+    font-family: serif;
+}
+
+header {
+    background-color: #cca10b;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+   
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lewy {
+    background-color: rgb(5, 160, 88, 0.8);
+    text-align: left;
+    height: 620px;
+}
+
+.prawy {
+    background-color: rgb(5, 160, 88, 0.8);
+    font-family: "LucidaConsole", "Consolas", "Courier New", monospace;
+    height: 600px;
+    padding-top: 20px;
+    font-size: 14px;
+
+}
+footer {
+    background-color: #cca10b;
+}
+.paragraf-banner {
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 2px 2px black;
+}
+.paragraf-h1 {
+    padding-left: 30px;
+}
