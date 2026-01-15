@@ -19,6 +19,7 @@ header {
     background-color: rgb(5, 160, 88, 0.8);
     text-align: left;
     height: 620px;
+    
 }
 
 .prawy {
@@ -27,6 +28,7 @@ header {
     height: 600px;
     padding-top: 20px;
     font-size: 14px;
+    width: 30%;
 
 }
 footer {
@@ -39,4 +41,24 @@ footer {
 }
 .paragraf-h1 {
     padding-left: 30px;
+}
+footer{
+     background-color: #cca10b;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+   
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img:hover {
+    border: 8px solid rgb(5, 160, 88, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    transform: scale(1.05);
+}
+    .prawy-tekst {
+  text-align: right;
 }
