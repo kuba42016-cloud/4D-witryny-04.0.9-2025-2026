@@ -13,7 +13,7 @@
     margin-top: 40px;
     border: 1px solid silver;
     padding: 30px;
-    height: 300px;
+    height: 5000px;
     margin-left: 270px;
 }
 .sidebar p{
@@ -63,3 +63,56 @@ body{
 .zdj:hover .napis{
     opacity:1;
 }
+.przycisk-do-gory {
+    position: fixed;  
+    bottom: 20px;    
+    right: 20px;      
+    background-color: white; 
+    color: red;    
+    padding: 15px;   
+    border-radius: 50%; 
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 1000;
+    opacity: 0.8;   
+    transition: opacity 0.3s; 
+     border: 2px solid black;
+}
+
+.przycisk-do-gory:hover {
+    opacity: 1;  
+    background-color: #555;
+}
+.p2 {
+    position: fixed;  
+    bottom: 20px;    
+    right: 150px;      
+    background-color: white; 
+    color: black    ;    
+    padding: 15px;   
+    border-radius: 50%; 
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 1000;
+    opacity: 0.8;   
+    transition: opacity 0.3s; 
+}
+
+
+
+.p3 {
+    position: fixed;  
+    bottom: 20px;    
+    right: 85px;      
+    background-color: white; 
+    color: blue;    
+    padding: 15px;   
+    border-radius: 50%; 
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 1000;
+    opacity: 0.8;   
+    transition: opacity 0.3s; 
+     border: 2px solid black;
+}
+ 
