@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eee;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.totem {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background: red;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 4px solid #ccc;
+  color: white;
+  font-weight: bold;
+}
+
+
+.logo {
+  justify-content: center;
+  background: #d32f2f;
+  font-size: 18px;
+}
+
+.shop {
+  justify-content: center;
+  background: #f44336;
+}
+
+.fuel {
+  background: #e53935;
+}
+
+.icons, .payments {
+  justify-content: space-around;
+  background: #c62828;
+}
